@@ -1,6 +1,6 @@
 {
   "name": "modal-component-wealth-health-jeremyteurterie",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "React Modal Component",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -28,13 +28,11 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "storybook": "^7.0.18"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "dependencies": {
-    "rollup-plugin-terser": "^7.0.2"
   }
 }
