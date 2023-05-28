@@ -1,8 +1,9 @@
 {
-  "name": "modal-component-wealth-health-jt",
+  "name": "modal-component-wealth-health-jeremyteurterie",
   "version": "1.0.0",
   "description": "React Modal Component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
