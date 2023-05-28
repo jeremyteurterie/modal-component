@@ -1,0 +1,40 @@
+.modalDiv {
+  width: 30%;
+  margin: 30px;
+  margin: auto;
+  background-color: #efefef;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgb(41 190 119 / 5%) 0px 2px 8px 0px;
+}
+
+.backgroundModal {
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(196 196 196 / 23%);
+  position: fixed;
+  display: flex;
+}
+
+.close {
+  background-color: rgb(196 196 196 /3%);
+  right: 15px;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  cursor: pointer;
+  transform: scale(0.7);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
