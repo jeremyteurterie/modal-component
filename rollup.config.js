@@ -2,7 +2,7 @@ import babel from 'rollup-plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
-// import { terser } from 'rollup-plugin-terser';
+import { terser } from 'rollup-plugin-terser';
 
 export default [
   {
@@ -26,7 +26,7 @@ export default [
       }),
       external(),
       resolve(),
-      // terser(),
+      terser(),
     ],
   },
 ];
