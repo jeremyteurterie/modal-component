@@ -11,6 +11,7 @@
   "author": "Jeremy Teurterie",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
@@ -21,6 +22,9 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^3.23.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "storybook": "^7.0.18"
   },
   "peerDependencies": {
