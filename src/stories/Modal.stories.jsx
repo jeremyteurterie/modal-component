@@ -1,4 +1,4 @@
-import { Modal } from '../components/Modal/Modal';
+import { Modal } from '../components/Modal';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
