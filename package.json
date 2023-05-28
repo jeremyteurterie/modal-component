@@ -1,0 +1,11 @@
+{
+  "name": "modal-component-wealth-health-jt",
+  "version": "1.0.0",
+  "description": "React Modal Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Teurterie",
+  "license": "MIT"
+}
